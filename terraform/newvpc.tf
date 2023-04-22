@@ -7,3 +7,8 @@ resource "aws_vpc" "main" {
     Purpose = "Jenkins Terraform Demo"
   }
 }
+
+resource "aws_instance" "Terrafrom-ec2" {
+  ami = "ami-06e46074ae430fba6"
+  instance_type = "t2.micro"
+}
