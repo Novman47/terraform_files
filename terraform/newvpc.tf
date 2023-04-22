@@ -9,6 +9,6 @@ resource "aws_vpc" "main" {
 }
 
 resource "aws_instance" "Terrafrom-ec2" {
-  ami = "ami-06e46074ae430fba6"
+  ami = "ami-007855ac798b5175e"
   instance_type = "t2.micro"
 }
